@@ -1,0 +1,21 @@
+.color-picker {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0;
+}
+
+.heart {
+    place-items: center;
+}
+
+h1 {
+    font-size: 80px;
+    color: rgb(139, 0, 0);
+}
+
+.heart:hover .color-picker {
+    opacity: 1;
+}
+
+.blur-heart {
+    filter: blur(5px);
+}
