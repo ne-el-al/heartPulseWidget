@@ -5,7 +5,7 @@ function changeColor() {
 
 function pulse() {
     const heart = document.getElementsByTagName("h1")[0];
-    heart.style.fontSize = heart.style.fontSize === "100px" ? "80px" : "100px";
+    heart.style.transform = heart.style.transform === "scale(1)" ? "scale(1.3)" : "scale(1)";
 }
 
 changeColor();
