@@ -2,11 +2,6 @@ body {
     height: fit-content;
 }
 
-.color-picker {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    opacity: 0;
-}
-
 .heart {
     place-items: center;
     width: 100%;
@@ -15,10 +10,9 @@ body {
     margin: 0;
 }
 
-h1 {
-    margin: 0%;
-    font-size: 80px;
-    color: rgb(139, 0, 0);
+.color-picker {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0;
 }
 
 .heart:hover .color-picker {
@@ -32,7 +26,6 @@ h1 {
 h1 {
     margin: 0%;
     font-size: 80px;
-    color: rgb(139, 0, 0);
 }
 
 @media (max-width: 255px) {
