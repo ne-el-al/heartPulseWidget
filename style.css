@@ -3,9 +3,9 @@ body {
 }
 
 .heart {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
+    position: relative;  
+    display: grid;
+    place-items: center;  
     width: 100%;
     height: fit-content;
     padding: 0%;
@@ -13,6 +13,7 @@ body {
 }
 
 .color-picker {
+    position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
     opacity: 0;
 }
@@ -26,6 +27,7 @@ body {
 }
 
 h1 {
+    position: absolute;
     margin: 0%;
     font-size: 80px;
 }
