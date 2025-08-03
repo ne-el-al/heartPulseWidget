@@ -1,5 +1,5 @@
 let intervalId;
-function changeColor() {
+function changeSize() {
     intervalId ??= setInterval(pulse, 1000);
 }
 
@@ -8,4 +8,4 @@ function pulse() {
     heart.style.transform = heart.style.transform === "scale(1)" ? "scale(1.3)" : "scale(1)";
 }
 
-changeColor();
+changeSize();
