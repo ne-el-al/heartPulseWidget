@@ -28,3 +28,26 @@ h1 {
 .blur-heart {
     filter: blur(5px);
 }
+
+h1 {
+    margin: 0%;
+    font-size: 80px;
+    color: rgb(139, 0, 0);
+}
+
+@media (max-width: 255px) {
+    .color-picker label {
+        display: none;
+    }
+}
+
+
+@media (max-width: 110px) {
+    h1 {
+        font-size: 70vw;
+    }
+
+    .blur-heart {
+        filter: blur(4px);
+    }
+}
