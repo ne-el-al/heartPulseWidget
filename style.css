@@ -3,6 +3,8 @@ body {
 }
 
 .heart {
+    display: flex;
+    flex-direction: column;
     place-items: center;
     width: 100%;
     height: fit-content;
